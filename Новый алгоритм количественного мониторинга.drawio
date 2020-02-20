@@ -1,136 +1,138 @@
-<mxfile host="www.draw.io" modified="2020-02-20T07:00:00.987Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="j5nvVkX8Vm-L9iSFX7Os" version="12.7.2" type="github">
+<mxfile type="github" version="12.7.2" etag="5b_wPYNlzhjRpDy0Mfw7" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18363" modified="2020-02-20T16:09:59.228Z" host="www.draw.io">
   <diagram id="MYcP-UznbaHqbxDd1EnT" name="Page-1">
-    <mxGraphModel dx="1202" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" shadow="0" math="0" pageHeight="1169" pageWidth="827" pageScale="1" page="1" fold="1" arrows="1" connect="1" tooltips="1" guides="1" gridSize="10" dy="595" dx="999">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Fly2vRC0832emMeXLDEC-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fly2vRC0832emMeXLDEC-1" target="Fly2vRC0832emMeXLDEC-3">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Fly2vRC0832emMeXLDEC-18" value="" parent="1" target="Fly2vRC0832emMeXLDEC-3" source="Fly2vRC0832emMeXLDEC-1" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry as="geometry" relative="1" />
         </mxCell>
-        <mxCell id="Fly2vRC0832emMeXLDEC-1" value="1. Начало" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="267.5" y="40" width="120" height="60" as="geometry" />
+        <mxCell id="Fly2vRC0832emMeXLDEC-1" value="1. Начало" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1">
+          <mxGeometry as="geometry" height="60" width="120" y="40" x="267.5" />
         </mxCell>
-        <mxCell id="Fly2vRC0832emMeXLDEC-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fly2vRC0832emMeXLDEC-3" target="Fly2vRC0832emMeXLDEC-4">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Fly2vRC0832emMeXLDEC-19" value="" parent="1" target="Fly2vRC0832emMeXLDEC-4" source="Fly2vRC0832emMeXLDEC-3" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry as="geometry" relative="1" />
         </mxCell>
-        <mxCell id="Fly2vRC0832emMeXLDEC-3" value="&lt;div&gt;2. LC - количество слоёв,&lt;/div&gt;&lt;div&gt;δ0 - погрешность&lt;/div&gt;&lt;div&gt;наблюдений,&lt;/div&gt;&lt;div&gt;ρр[] - массив сопротивлений&lt;/div&gt;&lt;div&gt;рабочего проекта,&lt;/div&gt;&lt;div&gt;ρи[] - массив сопротивлений&lt;/div&gt;&lt;div&gt;исходного проекта&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="182.5" y="130" width="290" height="130" as="geometry" />
+        <mxCell id="Fly2vRC0832emMeXLDEC-3" value="&lt;div&gt;2. LC - количество слоёв,&lt;/div&gt;&lt;div&gt;δ0 - погрешность&lt;/div&gt;&lt;div&gt;наблюдений,&lt;/div&gt;&lt;div&gt;ρр[] - массив сопротивлений&lt;/div&gt;&lt;div&gt;рабочего проекта,&lt;/div&gt;&lt;div&gt;ρи[] - массив сопротивлений&lt;/div&gt;&lt;div&gt;исходного проекта&lt;/div&gt;" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" vertex="1">
+          <mxGeometry as="geometry" height="130" width="290" y="130" x="182.5" />
         </mxCell>
-        <mxCell id="Fly2vRC0832emMeXLDEC-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fly2vRC0832emMeXLDEC-4" target="Fly2vRC0832emMeXLDEC-6">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Fly2vRC0832emMeXLDEC-20" value="" parent="1" target="Fly2vRC0832emMeXLDEC-6" source="Fly2vRC0832emMeXLDEC-4" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry as="geometry" relative="1" />
         </mxCell>
-        <mxCell id="Fly2vRC0832emMeXLDEC-4" value="&lt;div&gt;3. Начало цикла по слоям.&lt;/div&gt;&lt;div&gt;LI - номер слоя&lt;/div&gt;&lt;div&gt;LI = LC-1; до 1&lt;/div&gt;&lt;div&gt;Цикл выполняется от последнего&lt;/div&gt;&lt;div&gt;до второго слоя&lt;/div&gt;" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="197.5" y="290" width="260" height="130" as="geometry" />
+        <mxCell id="Fly2vRC0832emMeXLDEC-4" value="&lt;div&gt;3. Начало цикла по слоям.&lt;/div&gt;&lt;div&gt;LI - номер слоя&lt;/div&gt;&lt;div&gt;LI = LC-1; до 1&lt;/div&gt;&lt;div&gt;Цикл выполняется от последнего&lt;/div&gt;&lt;div&gt;до второго слоя&lt;/div&gt;" parent="1" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;" vertex="1">
+          <mxGeometry as="geometry" height="130" width="260" y="290" x="197.5" />
         </mxCell>
-        <mxCell id="Fly2vRC0832emMeXLDEC-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fly2vRC0832emMeXLDEC-6" target="Fly2vRC0832emMeXLDEC-7">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Fly2vRC0832emMeXLDEC-21" value="" parent="1" target="Fly2vRC0832emMeXLDEC-7" source="Fly2vRC0832emMeXLDEC-6" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry as="geometry" relative="1" />
         </mxCell>
-        <mxCell id="Fly2vRC0832emMeXLDEC-6" value="&lt;div&gt;4. Вычисляем расхождение δ-старт&lt;/div&gt;&lt;div&gt;между исходной (опорной) и рабочей&lt;/div&gt;&lt;div&gt;экспериментальными кривыми&lt;/div&gt;&lt;div&gt;для текущего слоя&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="217.5" y="440" width="220" height="110" as="geometry" />
+        <mxCell id="Fly2vRC0832emMeXLDEC-6" value="&lt;div&gt;4. Вычисляем расхождение δ-старт&lt;/div&gt;&lt;div&gt;между исходной (опорной) и рабочей&lt;/div&gt;&lt;div&gt;экспериментальными кривыми&lt;/div&gt;&lt;div&gt;для текущего слоя&lt;/div&gt;" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
+          <mxGeometry as="geometry" height="110" width="220" y="440" x="217.5" />
         </mxCell>
-        <mxCell id="Fly2vRC0832emMeXLDEC-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fly2vRC0832emMeXLDEC-7" target="Fly2vRC0832emMeXLDEC-8">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="470" y="680" as="targetPoint" />
+        <mxCell id="Fly2vRC0832emMeXLDEC-26" parent="1" target="Fly2vRC0832emMeXLDEC-8" source="Fly2vRC0832emMeXLDEC-7" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="targetPoint" y="680" x="470" />
             <Array as="points">
-              <mxPoint x="465" y="625" />
+              <mxPoint y="625" x="465" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fly2vRC0832emMeXLDEC-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.895;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Fly2vRC0832emMeXLDEC-7" target="Fly2vRC0832emMeXLDEC-17">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="180" y="1820" as="targetPoint" />
+        <mxCell id="Fly2vRC0832emMeXLDEC-38" parent="1" target="Fly2vRC0832emMeXLDEC-17" source="Fly2vRC0832emMeXLDEC-7" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.895;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="targetPoint" y="1820" x="180" />
             <Array as="points">
-              <mxPoint x="180" y="625" />
+              <mxPoint y="625" x="180" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fly2vRC0832emMeXLDEC-7" value="5. δ-старт &amp;gt; δ0 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="262.5" y="585" width="130" height="80" as="geometry" />
+        <mxCell id="Fly2vRC0832emMeXLDEC-7" value="5. δ-старт &amp;gt; δ0 ?" parent="1" style="rhombus;whiteSpace=wrap;html=1;" vertex="1">
+          <mxGeometry as="geometry" height="80" width="130" y="585" x="262.5" />
         </mxCell>
-        <mxCell id="Fly2vRC0832emMeXLDEC-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fly2vRC0832emMeXLDEC-8" target="Fly2vRC0832emMeXLDEC-9">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Fly2vRC0832emMeXLDEC-24" parent="1" target="Fly2vRC0832emMeXLDEC-9" source="Fly2vRC0832emMeXLDEC-8" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry as="geometry" relative="1" />
         </mxCell>
-        <mxCell id="Fly2vRC0832emMeXLDEC-8" value="&lt;div&gt;6. Сохраняем состояние слоёв рабочего пикета&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="375" y="690" width="180" height="60" as="geometry" />
+        <mxCell id="Fly2vRC0832emMeXLDEC-8" value="&lt;div&gt;6. Сохраняем состояние слоёв рабочего пикета&lt;/div&gt;" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
+          <mxGeometry as="geometry" height="60" width="180" y="690" x="375" />
         </mxCell>
-        <mxCell id="Fly2vRC0832emMeXLDEC-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fly2vRC0832emMeXLDEC-9" target="Fly2vRC0832emMeXLDEC-11">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Fly2vRC0832emMeXLDEC-28" parent="1" target="Fly2vRC0832emMeXLDEC-11" source="Fly2vRC0832emMeXLDEC-9" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry as="geometry" relative="1" />
         </mxCell>
-        <mxCell id="Fly2vRC0832emMeXLDEC-9" value="&lt;div&gt;7. Присваиваем анализируемому слою&lt;/div&gt;&lt;div&gt;сопротивление из исходного&lt;/div&gt;&lt;div&gt;проекта&lt;/div&gt;&lt;div&gt;ρp[LI] = ρи[LI]&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="355" y="830" width="220" height="90" as="geometry" />
+        <mxCell id="Fly2vRC0832emMeXLDEC-9" value="&lt;div&gt;7. Присваиваем анализируемому слою&lt;/div&gt;&lt;div&gt;сопротивление из исходного&lt;/div&gt;&lt;div&gt;проекта&lt;/div&gt;&lt;div&gt;ρp[LI] = ρи[LI]&lt;/div&gt;" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
+          <mxGeometry as="geometry" height="90" width="220" y="830" x="355" />
         </mxCell>
-        <mxCell id="Fly2vRC0832emMeXLDEC-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fly2vRC0832emMeXLDEC-11" target="Fly2vRC0832emMeXLDEC-12">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Fly2vRC0832emMeXLDEC-29" parent="1" target="53z4RbjxGHfSaBAxrwgF-1" source="Fly2vRC0832emMeXLDEC-11" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="targetPoint" y="1206" x="464.9999999999998" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="Fly2vRC0832emMeXLDEC-11" value="&lt;div style=&quot;white-space: normal&quot;&gt;8. Вычисляем расчётную рабочую кривую&lt;/div&gt;&lt;div style=&quot;white-space: normal&quot;&gt;и расхождение δ между&lt;/div&gt;&lt;div style=&quot;white-space: normal&quot;&gt;экспериментальной и расчётной&lt;/div&gt;&lt;div style=&quot;white-space: normal&quot;&gt;рабочими кривыми для текущего слоя&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="347.5" y="960" width="235" height="90" as="geometry" />
+        <mxCell id="Fly2vRC0832emMeXLDEC-11" value="&lt;div style=&quot;white-space: normal&quot;&gt;8. Вычисляем расчётную рабочую кривую&lt;/div&gt;&lt;div style=&quot;white-space: normal&quot;&gt;и расхождение δ между&lt;/div&gt;&lt;div style=&quot;white-space: normal&quot;&gt;экспериментальной и расчётной&lt;/div&gt;&lt;div style=&quot;white-space: normal&quot;&gt;рабочими кривыми для текущего слоя&lt;/div&gt;" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
+          <mxGeometry as="geometry" height="90" width="235" y="960" x="347.5" />
         </mxCell>
-        <mxCell id="Fly2vRC0832emMeXLDEC-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fly2vRC0832emMeXLDEC-12" target="Fly2vRC0832emMeXLDEC-13">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Fly2vRC0832emMeXLDEC-12" value="&lt;div&gt;9. Вычисляем направление изменения&lt;/div&gt;&lt;div&gt;сопротивления предыдущего слоя ρр[LI-1],&lt;/div&gt;&lt;div&gt;меняя сопротивление ρр[LI-1],&lt;/div&gt;&lt;div&gt;вычисляя новое расхождение на текущем слое&lt;/div&gt;&lt;div&gt;и сравнивая со значением δ,&lt;/div&gt;&lt;div&gt;найденным на предыдущем шаге&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="312.5" y="1206" width="305" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="Fly2vRC0832emMeXLDEC-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fly2vRC0832emMeXLDEC-13" target="Fly2vRC0832emMeXLDEC-14">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="Fly2vRC0832emMeXLDEC-31" parent="1" target="53z4RbjxGHfSaBAxrwgF-6" source="Fly2vRC0832emMeXLDEC-13" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.474;entryY=-0.009;entryDx=0;entryDy=0;entryPerimeter=0;">
+          <mxGeometry as="geometry" relative="1">
             <Array as="points">
-              <mxPoint x="465" y="1396" />
-              <mxPoint x="659" y="1396" />
+              <mxPoint y="1396" x="639" />
+            </Array>
+            <mxPoint as="targetPoint" y="1466" x="659" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fly2vRC0832emMeXLDEC-37" parent="1" target="Fly2vRC0832emMeXLDEC-16" source="Fly2vRC0832emMeXLDEC-13" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="Fly2vRC0832emMeXLDEC-13" value="10. Направление найдено?" parent="1" style="rhombus;whiteSpace=wrap;html=1;" vertex="1">
+          <mxGeometry as="geometry" height="80" width="145" y="1356" x="392.5" />
+        </mxCell>
+        <mxCell id="Fly2vRC0832emMeXLDEC-33" parent="1" target="Fly2vRC0832emMeXLDEC-17" source="Fly2vRC0832emMeXLDEC-15" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint y="1766" x="647" />
+              <mxPoint y="1766" x="393" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fly2vRC0832emMeXLDEC-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Fly2vRC0832emMeXLDEC-13" target="Fly2vRC0832emMeXLDEC-16">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Fly2vRC0832emMeXLDEC-15" value="&lt;div&gt;13. Считаем изменённые значения&lt;/div&gt;&lt;div&gt;сопротивлений текущего&lt;/div&gt;&lt;div&gt;и предыдущего слоёв их новыми значениями&lt;/div&gt;" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
+          <mxGeometry as="geometry" height="70" width="250" y="1670" x="522.13" />
         </mxCell>
-        <mxCell id="Fly2vRC0832emMeXLDEC-13" value="10. Направление найдено?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="392.5" y="1356" width="145" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Fly2vRC0832emMeXLDEC-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fly2vRC0832emMeXLDEC-14" target="Fly2vRC0832emMeXLDEC-15">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Fly2vRC0832emMeXLDEC-14" value="&lt;div&gt;11. Последовательно изменяем&lt;/div&gt;&lt;div&gt;сопротивление предыдущего слоя ρр[LI-1]&lt;/div&gt;&lt;div&gt;в найденном направлении,&lt;/div&gt;&lt;div&gt;до тех пор, пока убывает расхождение&lt;/div&gt;&lt;div&gt;между экспериментальной и расчётной&lt;/div&gt;&lt;div&gt;рабочими кривыми на текущем слое,&lt;/div&gt;&lt;div&gt;(и) расхождение на текущем слое превышает&lt;/div&gt;&lt;div&gt;погрешность наблюдений&lt;/div&gt;&lt;div&gt;(и) не достигнуто максимальное&lt;/div&gt;&lt;div&gt;количество итераций&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="537.5" y="1466" width="242.5" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="Fly2vRC0832emMeXLDEC-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fly2vRC0832emMeXLDEC-15" target="Fly2vRC0832emMeXLDEC-17">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="Fly2vRC0832emMeXLDEC-35" parent="1" target="Fly2vRC0832emMeXLDEC-17" source="Fly2vRC0832emMeXLDEC-16" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.411;entryY=0.996;entryDx=0;entryDy=0;entryPerimeter=0;">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="targetPoint" y="1786" x="340" />
             <Array as="points">
-              <mxPoint x="659" y="1766" />
-              <mxPoint x="393" y="1766" />
+              <mxPoint y="1746" x="339" />
+              <mxPoint y="1746" x="339" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fly2vRC0832emMeXLDEC-15" value="&lt;div&gt;13. Считаем изменённые значения&lt;/div&gt;&lt;div&gt;сопротивлений текущего&lt;/div&gt;&lt;div&gt;и предыдущего слоёв их новыми значениями&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="533.75" y="1666" width="250" height="70" as="geometry" />
+        <mxCell id="Fly2vRC0832emMeXLDEC-16" value="&lt;div&gt;12. Восстанавливаем ранее сохранённое (в 6.) состояние слоёв&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
+          <mxGeometry as="geometry" height="54" width="230" y="1596" x="225" />
         </mxCell>
-        <mxCell id="Fly2vRC0832emMeXLDEC-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.411;entryY=0.996;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Fly2vRC0832emMeXLDEC-16" target="Fly2vRC0832emMeXLDEC-17">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="340" y="1786" as="targetPoint" />
+        <mxCell id="Fly2vRC0832emMeXLDEC-39" parent="1" target="Fly2vRC0832emMeXLDEC-4" source="Fly2vRC0832emMeXLDEC-17" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.048;entryY=0.769;entryDx=0;entryDy=0;entryPerimeter=0;">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="targetPoint" y="390" x="110" />
             <Array as="points">
-              <mxPoint x="339" y="1746" />
-              <mxPoint x="339" y="1746" />
+              <mxPoint y="1876" x="100" />
+              <mxPoint y="390" x="100" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fly2vRC0832emMeXLDEC-16" value="&lt;div&gt;12. Восстанавливаем ранее сохранённое (в 6.) состояние слоёв&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="225" y="1596" width="230" height="54" as="geometry" />
+        <mxCell id="Fly2vRC0832emMeXLDEC-42" parent="1" target="Fly2vRC0832emMeXLDEC-41" source="Fly2vRC0832emMeXLDEC-17" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry as="geometry" relative="1" />
         </mxCell>
-        <mxCell id="Fly2vRC0832emMeXLDEC-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.048;entryY=0.769;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Fly2vRC0832emMeXLDEC-17" target="Fly2vRC0832emMeXLDEC-4">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="110" y="390" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="100" y="1876" />
-              <mxPoint x="100" y="390" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="Fly2vRC0832emMeXLDEC-17" value="&lt;div&gt;14. Устанавливаем предыдущий слой&lt;/div&gt;&lt;div&gt;в качестве текущего (LI = LI - 1)&lt;/div&gt;&lt;div&gt;Если достигли первого слоя, то&lt;/div&gt;&lt;div&gt;конец цикла по слоям,&lt;/div&gt;&lt;div&gt;иначе переходим в начало цикла&lt;/div&gt;" parent="1" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;direction=west;" vertex="1">
+          <mxGeometry as="geometry" height="100" width="330" y="1826" x="145" />
         </mxCell>
-        <mxCell id="Fly2vRC0832emMeXLDEC-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fly2vRC0832emMeXLDEC-17" target="Fly2vRC0832emMeXLDEC-41">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Fly2vRC0832emMeXLDEC-41" value="15. Конец" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1">
+          <mxGeometry as="geometry" height="60" width="120" y="1970" x="250" />
         </mxCell>
-        <mxCell id="Fly2vRC0832emMeXLDEC-17" value="&lt;div&gt;14. Устанавливаем предыдущий слой&lt;/div&gt;&lt;div&gt;в качестве текущего (LI = LI - 1)&lt;/div&gt;&lt;div&gt;Если достигли первого слоя, то&lt;/div&gt;&lt;div&gt;конец цикла по слоям,&lt;/div&gt;&lt;div&gt;иначе переходим в начало цикла&lt;/div&gt;" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;direction=west;" vertex="1" parent="1">
-          <mxGeometry x="145" y="1826" width="330" height="100" as="geometry" />
+        <mxCell id="53z4RbjxGHfSaBAxrwgF-5" parent="1" target="Fly2vRC0832emMeXLDEC-13" source="53z4RbjxGHfSaBAxrwgF-1" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry as="geometry" relative="1" />
         </mxCell>
-        <mxCell id="Fly2vRC0832emMeXLDEC-41" value="15. Конец" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="1970" width="120" height="60" as="geometry" />
+        <mxCell id="53z4RbjxGHfSaBAxrwgF-1" value="&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-variant: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-decoration: none ; text-indent: 0px ; text-transform: none ; white-space: normal ; word-spacing: 0px&quot;&gt;9. Вычисляем направление изменения&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-variant: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-decoration: none ; text-indent: 0px ; text-transform: none ; white-space: normal ; word-spacing: 0px&quot;&gt;сопротивления предыдущего слоя ρр[LI-1],&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-variant: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-decoration: none ; text-indent: 0px ; text-transform: none ; white-space: normal ; word-spacing: 0px&quot;&gt;меняя сопротивление ρр[LI-1],&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-variant: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-decoration: none ; text-indent: 0px ; text-transform: none ; white-space: normal ; word-spacing: 0px&quot;&gt;вычисляя новое расхождение на текущем слое&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-variant: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-decoration: none ; text-indent: 0px ; text-transform: none ; white-space: normal ; word-spacing: 0px&quot;&gt;и сравнивая со значением δ,&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-variant: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-decoration: none ; text-indent: 0px ; text-transform: none ; white-space: normal ; word-spacing: 0px&quot;&gt;найденным на предыдущем шаге&lt;/div&gt;" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1">
+          <mxGeometry as="geometry" height="116" width="340" y="1210" x="295" />
+        </mxCell>
+        <mxCell id="53z4RbjxGHfSaBAxrwgF-9" parent="1" target="Fly2vRC0832emMeXLDEC-15" source="53z4RbjxGHfSaBAxrwgF-6" edge="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="53z4RbjxGHfSaBAxrwgF-6" value="&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-variant: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-decoration: none ; text-indent: 0px ; text-transform: none ; white-space: normal ; word-spacing: 0px&quot;&gt;11. Последовательно изменяем&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-variant: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-decoration: none ; text-indent: 0px ; text-transform: none ; white-space: normal ; word-spacing: 0px&quot;&gt;сопротивление предыдущего слоя ρр[LI-1]&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-variant: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-decoration: none ; text-indent: 0px ; text-transform: none ; white-space: normal ; word-spacing: 0px&quot;&gt;в найденном направлении,&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-variant: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-decoration: none ; text-indent: 0px ; text-transform: none ; white-space: normal ; word-spacing: 0px&quot;&gt;до тех пор, пока убывает расхождение&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-variant: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-decoration: none ; text-indent: 0px ; text-transform: none ; white-space: normal ; word-spacing: 0px&quot;&gt;между экспериментальной и расчётной&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-variant: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-decoration: none ; text-indent: 0px ; text-transform: none ; white-space: normal ; word-spacing: 0px&quot;&gt;рабочими кривыми на текущем слое,&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-variant: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-decoration: none ; text-indent: 0px ; text-transform: none ; white-space: normal ; word-spacing: 0px&quot;&gt;(и) расхождение на текущем слое превышает&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-variant: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-decoration: none ; text-indent: 0px ; text-transform: none ; white-space: normal ; word-spacing: 0px&quot;&gt;погрешность наблюдений&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-variant: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-decoration: none ; text-indent: 0px ; text-transform: none ; white-space: normal ; word-spacing: 0px&quot;&gt;(и) не достигнуто максимальное&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-variant: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-decoration: none ; text-indent: 0px ; text-transform: none ; white-space: normal ; word-spacing: 0px&quot;&gt;количество итераций&lt;/div&gt;" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1">
+          <mxGeometry as="geometry" height="176" width="305.75" y="1450" x="494.25" />
         </mxCell>
       </root>
     </mxGraphModel>
