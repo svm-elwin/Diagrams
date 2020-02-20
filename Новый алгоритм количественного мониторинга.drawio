@@ -1,1 +1,19 @@
-<mxfile host="www.draw.io" modified="2020-02-20T06:04:44.349Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" version="12.7.2" etag="dWArSc_3Pqk6oHVsKLvO" type="github"><diagram id="MYcP-UznbaHqbxDd1EnT">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-02-20T06:26:44.753Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="2z4RH3-HVLDfwlIG98bB" version="12.7.2" type="github">
+  <diagram id="MYcP-UznbaHqbxDd1EnT" name="Page-1">
+    <mxGraphModel dx="782" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Fly2vRC0832emMeXLDEC-1" value="1. Начало" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fly2vRC0832emMeXLDEC-3" value="&lt;div&gt;2. LC - количество слоёв,&lt;/div&gt;&lt;div&gt;δ0 - погрешность&lt;/div&gt;&lt;div&gt;наблюдений,&lt;/div&gt;&lt;div&gt;ρр[] - массив сопротивлений&lt;/div&gt;&lt;div&gt;рабочего проекта,&lt;/div&gt;&lt;div&gt;ρи[] - массив сопротивлений&lt;/div&gt;&lt;div&gt;исходного проекта&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="130" width="290" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Fly2vRC0832emMeXLDEC-4" value="&lt;div&gt;3. Начало цикла по слоям.&lt;/div&gt;&lt;div&gt;LI - номер слоя&lt;/div&gt;&lt;div&gt;LI = LC-1; до 1&lt;/div&gt;&lt;div&gt;Цикл выполняется от последнего&lt;/div&gt;&lt;div&gt;до второго слоя&lt;/div&gt;" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="290" width="260" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
