@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-02-20T06:53:31.180Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="5gTkJzTN9jQPwzzW7osM" version="12.7.2" type="github">
+<mxfile host="www.draw.io" modified="2020-02-20T07:00:00.987Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="j5nvVkX8Vm-L9iSFX7Os" version="12.7.2" type="github">
   <diagram id="MYcP-UznbaHqbxDd1EnT" name="Page-1">
-    <mxGraphModel dx="782" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1202" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -36,11 +36,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fly2vRC0832emMeXLDEC-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.065;entryY=0.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Fly2vRC0832emMeXLDEC-7" target="Fly2vRC0832emMeXLDEC-16">
+        <mxCell id="Fly2vRC0832emMeXLDEC-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.895;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Fly2vRC0832emMeXLDEC-7" target="Fly2vRC0832emMeXLDEC-17">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="270" y="1460" as="targetPoint" />
+            <mxPoint x="180" y="1820" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="240" y="625" />
+              <mxPoint x="180" y="625" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -50,8 +50,8 @@
         <mxCell id="Fly2vRC0832emMeXLDEC-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fly2vRC0832emMeXLDEC-8" target="Fly2vRC0832emMeXLDEC-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Fly2vRC0832emMeXLDEC-8" value="&lt;div&gt;6. Запоминаем значения текущего&lt;/div&gt;&lt;div&gt;SaveCur = ρp[LI]&lt;/div&gt;&lt;div&gt;и предыдущего&lt;/div&gt;&lt;div&gt;SavePrev = ρp[LI-1]&lt;/div&gt;&lt;div&gt;слоёв.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="375" y="690" width="180" height="100" as="geometry" />
+        <mxCell id="Fly2vRC0832emMeXLDEC-8" value="&lt;div&gt;6. Сохраняем состояние слоёв рабочего пикета&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="690" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Fly2vRC0832emMeXLDEC-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fly2vRC0832emMeXLDEC-9" target="Fly2vRC0832emMeXLDEC-11">
           <mxGeometry relative="1" as="geometry" />
@@ -111,20 +111,26 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fly2vRC0832emMeXLDEC-16" value="&lt;div&gt;12. Восстанавливаем ранее сохранённые значения слоёв:&lt;/div&gt;&lt;div&gt;ρp[LI-1] = SavePrev; ρp[LI] =SaveCur&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="225" y="1596" width="230" height="70" as="geometry" />
+        <mxCell id="Fly2vRC0832emMeXLDEC-16" value="&lt;div&gt;12. Восстанавливаем ранее сохранённое (в 6.) состояние слоёв&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="1596" width="230" height="54" as="geometry" />
         </mxCell>
         <mxCell id="Fly2vRC0832emMeXLDEC-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.048;entryY=0.769;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Fly2vRC0832emMeXLDEC-17" target="Fly2vRC0832emMeXLDEC-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="110" y="390" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="100" y="1760" />
+              <mxPoint x="100" y="1876" />
               <mxPoint x="100" y="390" />
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="Fly2vRC0832emMeXLDEC-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fly2vRC0832emMeXLDEC-17" target="Fly2vRC0832emMeXLDEC-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Fly2vRC0832emMeXLDEC-17" value="&lt;div&gt;14. Устанавливаем предыдущий слой&lt;/div&gt;&lt;div&gt;в качестве текущего (LI = LI - 1)&lt;/div&gt;&lt;div&gt;Если достигли первого слоя, то&lt;/div&gt;&lt;div&gt;конец цикла по слоям,&lt;/div&gt;&lt;div&gt;иначе переходим в начало цикла&lt;/div&gt;" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;direction=west;" vertex="1" parent="1">
           <mxGeometry x="145" y="1826" width="330" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Fly2vRC0832emMeXLDEC-41" value="15. Конец" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1970" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
