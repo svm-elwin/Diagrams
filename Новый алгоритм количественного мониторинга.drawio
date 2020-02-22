@@ -1,6 +1,6 @@
-<mxfile etag="iCmoZE6oqVHemw1hgnrQ" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36" modified="2020-02-22T04:59:43.894Z" host="www.draw.io" version="12.7.4" type="github">
+<mxfile etag="VqAXPQusSA-qwHmXmBeI" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36" modified="2020-02-22T05:02:16.964Z" host="www.draw.io" version="12.7.4" type="github">
   <diagram id="MYcP-UznbaHqbxDd1EnT" name="Page-1">
-    <mxGraphModel dx="1747" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -55,7 +55,12 @@
           <mxGeometry x="375" y="742" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Fly2vRC0832emMeXLDEC-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Fly2vRC0832emMeXLDEC-9" target="Fly2vRC0832emMeXLDEC-11" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="312" y="1010" />
+              <mxPoint x="465" y="1010" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Fly2vRC0832emMeXLDEC-9" value="&lt;div&gt;7. Присваиваем анализируемому слою&lt;/div&gt;&lt;div&gt;сопротивление из исходного&lt;/div&gt;&lt;div&gt;проекта&lt;/div&gt;&lt;div&gt;ρp[LI] = ρи[LI]&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="900" width="204" height="90" as="geometry" />
@@ -124,9 +129,6 @@
         <mxCell id="53z4RbjxGHfSaBAxrwgF-6" value="&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-variant: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-decoration: none ; text-indent: 0px ; text-transform: none ; white-space: normal ; word-spacing: 0px&quot;&gt;11. Последовательно изменяем&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-variant: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-decoration: none ; text-indent: 0px ; text-transform: none ; white-space: normal ; word-spacing: 0px&quot;&gt;сопротивление предыдущего слоя ρр[LI-1]&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-variant: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-decoration: none ; text-indent: 0px ; text-transform: none ; white-space: normal ; word-spacing: 0px&quot;&gt;в найденном направлении,&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-variant: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-decoration: none ; text-indent: 0px ; text-transform: none ; white-space: normal ; word-spacing: 0px&quot;&gt;до тех пор, пока убывает расхождение&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-variant: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-decoration: none ; text-indent: 0px ; text-transform: none ; white-space: normal ; word-spacing: 0px&quot;&gt;между экспериментальной и расчётной&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-variant: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-decoration: none ; text-indent: 0px ; text-transform: none ; white-space: normal ; word-spacing: 0px&quot;&gt;рабочими кривыми на текущем слое,&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-variant: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-decoration: none ; text-indent: 0px ; text-transform: none ; white-space: normal ; word-spacing: 0px&quot;&gt;(и) расхождение на текущем слое превышает&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-variant: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-decoration: none ; text-indent: 0px ; text-transform: none ; white-space: normal ; word-spacing: 0px&quot;&gt;погрешность наблюдений&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-variant: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-decoration: none ; text-indent: 0px ; text-transform: none ; white-space: normal ; word-spacing: 0px&quot;&gt;(и) не достигнуто максимальное&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-variant: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-decoration: none ; text-indent: 0px ; text-transform: none ; white-space: normal ; word-spacing: 0px&quot;&gt;количество итераций&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="494.26" y="1436" width="305.75" height="174" as="geometry" />
         </mxCell>
-        <mxCell id="-MVCjyme2rjuKpGSPFJo-1" value="п. 7&amp;nbsp; выполняется либо для первой итерации,либо если на предыдущей итерации не модифицировались слои (шли по левым веткам)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="-200" y="970" width="257.5" height="85" as="geometry" />
-        </mxCell>
         <mxCell id="X_ASI7xLHjrWCHF8bEUT-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X_ASI7xLHjrWCHF8bEUT-1" target="Fly2vRC0832emMeXLDEC-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -146,8 +148,8 @@
             <mxPoint x="465" y="1020" as="targetPoint" />
             <Array as="points">
               <mxPoint x="580" y="860" />
-              <mxPoint x="580" y="1020" />
-              <mxPoint x="491" y="1020" />
+              <mxPoint x="580" y="1010" />
+              <mxPoint x="491" y="1010" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -173,6 +175,15 @@
         </mxCell>
         <mxCell id="X_ASI7xLHjrWCHF8bEUT-18" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="675" y="1670" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="X_ASI7xLHjrWCHF8bEUT-30" value="Да" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="394" y="680" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="X_ASI7xLHjrWCHF8bEUT-33" value="Да" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="840" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="X_ASI7xLHjrWCHF8bEUT-36" value="Да" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="537.5" y="1370" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
