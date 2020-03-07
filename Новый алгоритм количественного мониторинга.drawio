@@ -1,6 +1,6 @@
-<mxfile etag="XZjxLJyX36-ZMWMyXspO" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36" modified="2020-02-23T05:15:29.992Z" host="www.draw.io" version="12.7.4" type="github">
+<mxfile etag="eRNWL1HpFmcSMjWOzUkD" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" modified="2020-03-07T06:43:17.655Z" host="www.draw.io" version="12.8.1" type="github">
   <diagram id="MYcP-UznbaHqbxDd1EnT" name="Page-1">
-    <mxGraphModel dx="782" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="920" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,7 +10,7 @@
         <mxCell id="Fly2vRC0832emMeXLDEC-1" value="1. Начало" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="267.5" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X_ASI7xLHjrWCHF8bEUT-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fly2vRC0832emMeXLDEC-3" target="X_ASI7xLHjrWCHF8bEUT-37">
+        <mxCell id="X_ASI7xLHjrWCHF8bEUT-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Fly2vRC0832emMeXLDEC-3" target="X_ASI7xLHjrWCHF8bEUT-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Fly2vRC0832emMeXLDEC-3" value="&lt;div&gt;2. LC - количество слоёв,&lt;/div&gt;&lt;div&gt;δ0 - погрешность&lt;/div&gt;&lt;div&gt;наблюдений,&lt;/div&gt;&lt;div&gt;ρр[] - массив сопротивлений&lt;/div&gt;&lt;div&gt;рабочего проекта,&lt;/div&gt;&lt;div&gt;ρи[] - массив сопротивлений&lt;/div&gt;&lt;div&gt;исходного проекта&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -36,7 +36,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="X_ASI7xLHjrWCHF8bEUT-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fly2vRC0832emMeXLDEC-7" target="X_ASI7xLHjrWCHF8bEUT-21">
+        <mxCell id="X_ASI7xLHjrWCHF8bEUT-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Fly2vRC0832emMeXLDEC-7" target="X_ASI7xLHjrWCHF8bEUT-21" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="170" y="702" />
@@ -48,7 +48,7 @@
         <mxCell id="Fly2vRC0832emMeXLDEC-7" value="7. δ-старт &amp;gt; δ0 ?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="262.5" y="662" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="X_ASI7xLHjrWCHF8bEUT-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fly2vRC0832emMeXLDEC-8" target="X_ASI7xLHjrWCHF8bEUT-7">
+        <mxCell id="X_ASI7xLHjrWCHF8bEUT-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Fly2vRC0832emMeXLDEC-8" target="X_ASI7xLHjrWCHF8bEUT-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Fly2vRC0832emMeXLDEC-8" value="&lt;div&gt;8. Сохраняем состояние слоёв рабочего пикета&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -87,13 +87,13 @@
         <mxCell id="Fly2vRC0832emMeXLDEC-13" value="13. Направление найдено?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="392.5" y="1356" width="145" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="X_ASI7xLHjrWCHF8bEUT-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fly2vRC0832emMeXLDEC-15" target="X_ASI7xLHjrWCHF8bEUT-13">
+        <mxCell id="X_ASI7xLHjrWCHF8bEUT-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Fly2vRC0832emMeXLDEC-15" target="X_ASI7xLHjrWCHF8bEUT-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Fly2vRC0832emMeXLDEC-15" value="&lt;div&gt;15. Считаем изменённые значения&lt;/div&gt;&lt;div&gt;сопротивлений текущего&lt;/div&gt;&lt;div&gt;и предыдущего слоёв их новыми значениями&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="522.14" y="1630" width="250" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="X_ASI7xLHjrWCHF8bEUT-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fly2vRC0832emMeXLDEC-16" target="X_ASI7xLHjrWCHF8bEUT-21">
+        <mxCell id="X_ASI7xLHjrWCHF8bEUT-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Fly2vRC0832emMeXLDEC-16" target="X_ASI7xLHjrWCHF8bEUT-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Fly2vRC0832emMeXLDEC-16" value="&lt;div&gt;17. Восстанавливаем ранее сохранённое (в 7.) состояние слоёв&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -123,19 +123,19 @@
         <mxCell id="53z4RbjxGHfSaBAxrwgF-1" value="&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-variant: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-decoration: none ; text-indent: 0px ; text-transform: none ; white-space: normal ; word-spacing: 0px&quot;&gt;12. Вычисляем направление изменения&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-variant: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-decoration: none ; text-indent: 0px ; text-transform: none ; white-space: normal ; word-spacing: 0px&quot;&gt;сопротивления предыдущего слоя ρр[LI-1],&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-variant: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-decoration: none ; text-indent: 0px ; text-transform: none ; white-space: normal ; word-spacing: 0px&quot;&gt;меняя сопротивление ρр[LI-1],&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-variant: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-decoration: none ; text-indent: 0px ; text-transform: none ; white-space: normal ; word-spacing: 0px&quot;&gt;вычисляя новое расхождение на текущем слое&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-variant: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-decoration: none ; text-indent: 0px ; text-transform: none ; white-space: normal ; word-spacing: 0px&quot;&gt;и сравнивая со значением δ,&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-variant: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-decoration: none ; text-indent: 0px ; text-transform: none ; white-space: normal ; word-spacing: 0px&quot;&gt;найденным на предыдущем шаге&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="295" y="1210" width="340" height="116" as="geometry" />
         </mxCell>
-        <mxCell id="X_ASI7xLHjrWCHF8bEUT-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="53z4RbjxGHfSaBAxrwgF-6" target="Fly2vRC0832emMeXLDEC-15">
+        <mxCell id="X_ASI7xLHjrWCHF8bEUT-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="53z4RbjxGHfSaBAxrwgF-6" target="Fly2vRC0832emMeXLDEC-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="53z4RbjxGHfSaBAxrwgF-6" value="&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-variant: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-decoration: none ; text-indent: 0px ; text-transform: none ; white-space: normal ; word-spacing: 0px&quot;&gt;14. Последовательно изменяем&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-variant: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-decoration: none ; text-indent: 0px ; text-transform: none ; white-space: normal ; word-spacing: 0px&quot;&gt;сопротивление предыдущего слоя ρр[LI-1]&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-variant: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-decoration: none ; text-indent: 0px ; text-transform: none ; white-space: normal ; word-spacing: 0px&quot;&gt;в найденном направлении,&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-variant: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-decoration: none ; text-indent: 0px ; text-transform: none ; white-space: normal ; word-spacing: 0px&quot;&gt;до тех пор, пока убывает расхождение&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-variant: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-decoration: none ; text-indent: 0px ; text-transform: none ; white-space: normal ; word-spacing: 0px&quot;&gt;между экспериментальной и расчётной&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-variant: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-decoration: none ; text-indent: 0px ; text-transform: none ; white-space: normal ; word-spacing: 0px&quot;&gt;рабочими кривыми на текущем слое,&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-variant: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-decoration: none ; text-indent: 0px ; text-transform: none ; white-space: normal ; word-spacing: 0px&quot;&gt;(и) расхождение на текущем слое превышает&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-variant: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-decoration: none ; text-indent: 0px ; text-transform: none ; white-space: normal ; word-spacing: 0px&quot;&gt;погрешность наблюдений&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-variant: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-decoration: none ; text-indent: 0px ; text-transform: none ; white-space: normal ; word-spacing: 0px&quot;&gt;(и) не достигнуто максимальное&lt;/div&gt;&lt;div style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-variant: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-decoration: none ; text-indent: 0px ; text-transform: none ; white-space: normal ; word-spacing: 0px&quot;&gt;количество итераций&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="494.26" y="1436" width="305.75" height="174" as="geometry" />
         </mxCell>
-        <mxCell id="X_ASI7xLHjrWCHF8bEUT-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X_ASI7xLHjrWCHF8bEUT-1" target="Fly2vRC0832emMeXLDEC-4">
+        <mxCell id="X_ASI7xLHjrWCHF8bEUT-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X_ASI7xLHjrWCHF8bEUT-1" target="Fly2vRC0832emMeXLDEC-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X_ASI7xLHjrWCHF8bEUT-1" value="4. Сбрасываем&lt;br&gt;признак модификации&lt;br&gt;текущего проекта ПМ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="X_ASI7xLHjrWCHF8bEUT-1" value="4. Сбрасываем&lt;br&gt;признак модификации&lt;br&gt;текущего проекта ПМ" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="257.5" y="360" width="140" height="61" as="geometry" />
         </mxCell>
-        <mxCell id="X_ASI7xLHjrWCHF8bEUT-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X_ASI7xLHjrWCHF8bEUT-7" target="Fly2vRC0832emMeXLDEC-9">
+        <mxCell id="X_ASI7xLHjrWCHF8bEUT-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X_ASI7xLHjrWCHF8bEUT-7" target="Fly2vRC0832emMeXLDEC-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="280" y="860" as="targetPoint" />
             <Array as="points">
@@ -143,7 +143,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="X_ASI7xLHjrWCHF8bEUT-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.611;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="X_ASI7xLHjrWCHF8bEUT-7" target="Fly2vRC0832emMeXLDEC-11">
+        <mxCell id="X_ASI7xLHjrWCHF8bEUT-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.611;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="X_ASI7xLHjrWCHF8bEUT-7" target="Fly2vRC0832emMeXLDEC-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="465" y="1020" as="targetPoint" />
             <Array as="points">
@@ -153,10 +153,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="X_ASI7xLHjrWCHF8bEUT-7" value="9. ПМ установлен ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="X_ASI7xLHjrWCHF8bEUT-7" value="9. ПМ установлен ?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="390" y="830" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X_ASI7xLHjrWCHF8bEUT-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X_ASI7xLHjrWCHF8bEUT-13" target="Fly2vRC0832emMeXLDEC-17">
+        <mxCell id="X_ASI7xLHjrWCHF8bEUT-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X_ASI7xLHjrWCHF8bEUT-13" target="Fly2vRC0832emMeXLDEC-17" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="647" y="1800" />
@@ -164,32 +164,73 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="X_ASI7xLHjrWCHF8bEUT-13" value="16. Устанавливаем признак модификации ПМ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="X_ASI7xLHjrWCHF8bEUT-13" value="16. Устанавливаем признак модификации ПМ" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="562.13" y="1729" width="170" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="X_ASI7xLHjrWCHF8bEUT-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X_ASI7xLHjrWCHF8bEUT-21" target="Fly2vRC0832emMeXLDEC-17">
+        <mxCell id="X_ASI7xLHjrWCHF8bEUT-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X_ASI7xLHjrWCHF8bEUT-21" target="Fly2vRC0832emMeXLDEC-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X_ASI7xLHjrWCHF8bEUT-21" value="18. Сбрасываем признак модификации ПМ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="X_ASI7xLHjrWCHF8bEUT-21" value="18. Сбрасываем признак модификации ПМ" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="190" y="1720" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="X_ASI7xLHjrWCHF8bEUT-18" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="X_ASI7xLHjrWCHF8bEUT-18" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="675" y="1670" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="X_ASI7xLHjrWCHF8bEUT-30" value="Да" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="X_ASI7xLHjrWCHF8bEUT-30" value="Да" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="394" y="680" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="X_ASI7xLHjrWCHF8bEUT-33" value="Да" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="X_ASI7xLHjrWCHF8bEUT-33" value="Да" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="530" y="840" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="X_ASI7xLHjrWCHF8bEUT-36" value="Да" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="X_ASI7xLHjrWCHF8bEUT-36" value="Да" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="537.5" y="1370" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="X_ASI7xLHjrWCHF8bEUT-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X_ASI7xLHjrWCHF8bEUT-37" target="X_ASI7xLHjrWCHF8bEUT-1">
+        <mxCell id="X_ASI7xLHjrWCHF8bEUT-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X_ASI7xLHjrWCHF8bEUT-37" target="X_ASI7xLHjrWCHF8bEUT-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X_ASI7xLHjrWCHF8bEUT-37" value="&lt;div&gt;3. Определяем эффективную глубину зондирования для каждого слоя исходной кривой зондирования.&lt;/div&gt;&lt;div&gt;Расхождения для слоёв будут определяться на этой глубине.&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="X_ASI7xLHjrWCHF8bEUT-37" value="&lt;div&gt;3. Определяем эффективную глубину зондирования для каждого слоя исходной кривой зондирования.&lt;/div&gt;&lt;div&gt;Расхождения для слоёв будут определяться на этой глубине.&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="187.5" y="250" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="86i8pLbmgmSDu9cqU7Ni-3" value="" style="endArrow=none;html=1;fillColor=#e51400;strokeColor=#B20000;strokeWidth=5;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="287" y="1140" as="sourcePoint" />
+            <mxPoint x="630" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="86i8pLbmgmSDu9cqU7Ni-6" value="" style="endArrow=none;html=1;fillColor=#e51400;strokeColor=#B20000;strokeWidth=5;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="1060" as="sourcePoint" />
+            <mxPoint x="630" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="86i8pLbmgmSDu9cqU7Ni-8" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=5;fillColor=#fa6800;strokeColor=#FF33FF;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="1290" as="sourcePoint" />
+            <mxPoint x="660" y="1240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="86i8pLbmgmSDu9cqU7Ni-9" value="Частично" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;fontColor=#FF33FF;fontStyle=1;fontSize=15;" vertex="1" connectable="0" parent="86i8pLbmgmSDu9cqU7Ni-8">
+          <mxGeometry x="-0.8291" y="-2" relative="1" as="geometry">
+            <mxPoint x="-26.979999999999997" y="22.29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="86i8pLbmgmSDu9cqU7Ni-10" value="" style="endArrow=none;html=1;fillColor=#e51400;strokeColor=#B20000;strokeWidth=5;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="1650" as="sourcePoint" />
+            <mxPoint x="520" y="1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="86i8pLbmgmSDu9cqU7Ni-11" value="" style="endArrow=none;html=1;fillColor=#e51400;strokeColor=#B20000;strokeWidth=5;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="1580" as="sourcePoint" />
+            <mxPoint x="450" y="1650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="86i8pLbmgmSDu9cqU7Ni-12" value="" style="endArrow=none;html=1;fillColor=#e51400;strokeColor=#B20000;strokeWidth=5;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="1360" as="sourcePoint" />
+            <mxPoint x="540" y="1420" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
