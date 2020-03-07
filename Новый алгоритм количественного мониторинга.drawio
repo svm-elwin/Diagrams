@@ -1,6 +1,6 @@
-<mxfile etag="rqw9vN-uSuKO_-EtWZwX" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" modified="2020-03-07T07:03:32.056Z" host="www.draw.io" version="12.8.1" type="github">
+<mxfile etag="w9Q1whn86vJP7ebVCv9d" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" modified="2020-03-07T07:04:24.665Z" host="www.draw.io" version="12.8.1" type="github">
   <diagram id="MYcP-UznbaHqbxDd1EnT" name="Page-1">
-    <mxGraphModel dx="920" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -84,7 +84,7 @@
         <mxCell id="Fly2vRC0832emMeXLDEC-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Fly2vRC0832emMeXLDEC-17" target="Fly2vRC0832emMeXLDEC-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Fly2vRC0832emMeXLDEC-17" value="&lt;div&gt;16. Устанавливаем предыдущий слой&lt;/div&gt;&lt;div&gt;в качестве текущего (LI = LI - 1)&lt;/div&gt;&lt;div&gt;Если достигли первого слоя, то&lt;/div&gt;&lt;div&gt;конец цикла по слоям,&lt;/div&gt;&lt;div&gt;иначе переходим в начало цикла&lt;/div&gt;" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;direction=west;" parent="1" vertex="1">
+        <mxCell id="Fly2vRC0832emMeXLDEC-17" value="&lt;div&gt;16. Устанавливаем предыдущий слой&lt;/div&gt;&lt;div&gt;в качестве текущего (LI = LI - 1)&lt;/div&gt;&lt;div&gt;Если текущим стал первый слой, то&lt;/div&gt;&lt;div&gt;конец цикла по слоям,&lt;/div&gt;&lt;div&gt;иначе переходим в начало цикла&lt;/div&gt;" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;direction=west;" parent="1" vertex="1">
           <mxGeometry x="145" y="1826" width="330" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Fly2vRC0832emMeXLDEC-41" value="17. Конец" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
